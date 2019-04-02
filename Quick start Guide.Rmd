@@ -1,0 +1,41 @@
+---
+title: "Quick Start Guide"
+output: html_document
+---
+
+**Please, follow these short steps to learn how to use this useful App**
+
+---
+
+## Step 1 out of 3
+This RShiny app allows you to keep ordered your personal incomes and expenses, and lets you visualize some useful graphs.  
+
+Supose that you have downloaded a .xlsx file from your bank website containing your incomes and expenses of the current year [click here](https://github.com/jaimugarte/DTAR-Project-/raw/jaime_branch/datasets/example_bank_movements.xlsx) to download a simulated .xlsx file that we will use during the start guide. Please, take now 15 sec. to see the content of the file).  
+The file has been dowloaded from Kaggle webpage: https://www.kaggle.com/notis23/bank-movements-with-descriptions-in-spanish#example_bank_movements.xlsx  
+
+---
+
+## Step 2 out of 3
+You can go now to **Data** in the top bar menu, click on the **Import** button located in the left side, and select the file mentioned before. You may see the content of the file in a table. A new column on the right side may appear, with the class (Income/Expenses) of each row.
+
+The Step 2 has this workflow:  
+1) When *Import* button is clicked, the R Shiny saves the data set in a reactive variable called data().
+2) Then, the R Shiny structures the file with the appearance that is shown in the Shiny table, with the function *data_cleaning()*.
+3) Then, the R Shiny displays a reactive table.
+
+---
+
+## Step 3 out of 3
+Go now to **Control** in the top bar menu and examine the graphs that have been generated from the data.  
+As in the case of the previous table, the graphs are generated automatically from the reactive variable that contains the file imported at the beginning.  
+In the graphs you can see grouped by months the expenses, income, the evolution of the balance and the profit.  
+In the second and third graph, we have used an algorithm to classify expenses and income from a pre-established list of classes.
+
+
+
+
+
+
+
+
+

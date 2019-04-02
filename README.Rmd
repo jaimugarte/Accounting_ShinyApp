@@ -1,0 +1,33 @@
+---
+title: "README"
+output: html_document
+---
+
+**Master Title:** Statistics for Data Science  
+**Course title:** Data Tyding and Reporting  
+**Year:** 2019  
+**Team members:**  
+
+ + Jaime Ugarte 
+ + Panagiotis Karathymios 
+
+
+**GitHub repository url:**  
+https://github.com/pkmath/DTAR-Project-
+
+**Instructions:**  
+This R Shiny app allows you to keep ordered your personal incomes and expenses, and lets you visualize some useful graphs.  
+
+To use the Shiny App follow this steps:  
+
+  + Fork this repo in your computer.  
+  
+  + Set the working directory in the forked folder in your computer.  
+  
+  + Open the App.R file from RStudio. 
+  
+  + Before running the ShinyApp comand, load the needed packages indicated in the code. Then, run the ShinyApp command.
+  
+  + Once the App is runing, go to **About** in the top bar menu and follow the Quick Start Guide.  
+  
+*(VERY IMPORTANT: choose the option 'Open in browser' if you open the App from RStudio Cloud). 
