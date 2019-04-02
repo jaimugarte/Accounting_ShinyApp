@@ -10,7 +10,7 @@ source("./charge_libraries.R") ; charge_libraries()
 # and import manually the packages.
 
 # Charge the functions that RShiny will use:
-functions_path <- gsub(" ", "", paste(getwd(),"/scripts"), fixed = TRUE)
+functions_path <- gsub(" ", "", getwd(), fixed = TRUE)
 files.sources = list.files(path = functions_path, full.names = T)
 sapply(files.sources, source)
 
